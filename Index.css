@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+
+body{
+	background-image:url("https://png.pngtree.com/background/20230617/original/pngtree-three-dimensional-depiction-of-a-book-picture-image_3682361.jpg");
+	background-position:center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+
+
+
+.container{
+	position:absolute;
+	top:5%;
+	left:35%;
+	max-width:650px;
+	text-align:center;
+	color:#fff;
+}
+
+.container h2{
+	font-size:2em;
+	
+	margin:20px
+}
+
+.container a{
+	text-decoration:none;
+	background:red;
+	padding:10px ;
+	margin:10px ;
+	color:white;
+	letter-spacing:5px;
+}
+
+.container a:hover{
+	border:1px solid black;
+	background:transparent;
+}
+	
