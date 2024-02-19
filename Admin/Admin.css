@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+body{
+	background-image:url("https://cdn.stocksnap.io/img-thumbs/960w/flowers-books_XKWL7SKFOZ.jpg");
+	background-position:center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+
+.box{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	min-height:70vh;
+	
+}
+.container{
+	width:350px;
+	display:flex;
+	flex-direction:column;
+	padding:15px 15px 0 15px;
+}
+header{
+	color:white;
+	font-size:40px;
+	display:flex;
+	justify-content:center;
+	padding:10px 0 10px 0;
+}
+.inputt{
+	display:flex;
+	flex-direction:column;
+}
+
+.user{
+	height:45px;
+	width:87%;
+	border:none;
+	outline:none;
+	border-radius:30px;
+	color:white;
+	padding:0 0 0 45px;
+	margin:10px;
+	background-color:rgba(255,255,255,0.8);
+}
+
+
+.submit{
+	border:none;
+	border-radius:30px;
+	font-size:15px;
+	height:40px;
+	outline:none;
+	width:105%;
+	background:#9867C5;
+	padding:10px 10px 10px 0;
+}

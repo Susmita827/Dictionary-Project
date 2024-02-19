@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+
+
+body{
+	background-image:url("https://t3.ftcdn.net/jpg/04/32/86/92/360_F_432869291_tkjGJGLQ4QEKjFscZIaz2UgcmxKpcYnM.jpg");
+	background-position:center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+.buttoncss{
+	text-align:center;
+	top:20%;
+	
+}
+
+
+.block1{
+	
+	width:30%;
+	height:50px;
+	background:Green;
+	font-size:16px;
+	font-weight:500;
+	border-radius:30px;
+	cursor:pointer;
+	color:black;
+	margin:5px;
+
+}
+.block2{
+	
+	width:30%;
+	height:50px;
+	background:yellow;
+	font-size:16px;
+	font-weight:500;
+	border-radius:30px;
+	cursor:pointer;
+	color:black;
+	margin:5px;
+
+}
+.block3{
+	
+	width:30%;
+	height:50px;
+	background:red;
+	font-size:16px;
+	font-weight:500;
+	border-radius:30px;
+	cursor:pointer;
+	color:black;
+	margin:5px;
+
+}
+.block4{
+	
+	width:30%;
+	height:50px;
+	background:purple;
+	font-size:16px;
+	font-weight:500;
+	border-radius:30px;
+	cursor:pointer;
+	color:black;
+	margin:5px;
+	border:1px solid black;
+
+}
+.block5{
+	
+	width:30%;
+	height:50px;
+	background:#3C99DC;
+	font-size:16px;
+	font-weight:500;
+	border-radius:30px;
+	cursor:pointer;
+	color:black;
+	margin:5px;
+	border:1px solid black;
+
+}
+.btn button:hover{
+	border:1px solid black;
+	background:transparent;
+}
